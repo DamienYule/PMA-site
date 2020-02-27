@@ -289,5 +289,12 @@ h3 {
     float: left;
     font-size: 150%;
     margin-right: 25px;
-
+}
+.iphone-pic{
+    width: 100%;
+    float: left;
+}
+.section-cities{
+    background-color: rgb(230, 213, 213);
+    padding: 80px 0;
 }
