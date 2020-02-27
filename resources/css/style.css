@@ -293,6 +293,7 @@ h3 {
 .iphone-pic{
     width: 100%;
     float: left;
+    margin-bottom: 20px;
 }
 .section-cities{
     background-color: rgb(230, 213, 213);
