@@ -223,6 +223,7 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.66), rgba(255, 255, 255,
 
 background-repeat: no-repeat;
 background-size: cover;
+padding-bottom: 400px;
 }
 .section-features ul {
   margin: 0px;
@@ -253,6 +254,13 @@ background-size: cover;
   display: none;
 }
 .section-features ul li:hover ul li {
+  display: none;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: auto;
+  height: auto;
+  text-align: center;
+
   display: block;
   border-radius: 0px 0px 0px 10px;
   color: rgba(1, 63, 230, 0.66);
