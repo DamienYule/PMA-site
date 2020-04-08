@@ -1,3 +1,10 @@
+//Capability Statement
+function openFormCapabilityStatement() {
+document.getElementById("popupFormCapabilityStatement").style.display = "block";
+}
+function closeFormCapabilityStatement() {
+document.getElementById("popupFormCapabilityStatement").style.display = "none";
+}
 //Traslation form
 function openFormTranslation() {
 document.getElementById("popupFormTranslation").style.display = "block";
