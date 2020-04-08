@@ -504,10 +504,19 @@ background-size: cover;
 }
 .moving-object{
     width: 100%;
-    float: right;
+
+    float:none;
+
 }
 .list-moving{
     margin-bottom: 50px;
+    width: 100%;
+
+    float:none;
+
+}
+.capstament{
+    cursor: pointer;
 }
 .list-moving div{
     color: rgba(1, 63, 230, 0.66);
