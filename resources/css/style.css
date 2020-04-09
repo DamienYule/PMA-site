@@ -226,7 +226,7 @@ h3 {
 
 /*---------*/
 .box {
-  width: 40%;
+  width:33%;
   margin: 0 auto;
   background: rgba(255,255,255,0.2);
   padding: 35px;
@@ -365,7 +365,7 @@ outline: none;
 }
 /* Style submit/login button */
 .form-container .btn1 {
-color: #fff;
+color: rgba(1, 63, 230, 0.66);
 padding: 12px 20px;
 border: none;
 cursor: pointer;
@@ -375,7 +375,7 @@ opacity: 0.8;
 }
 /* Style cancel button */
 .form-container .cancel {
-background-color: #cc0000;
+background-color: #ffffff;
 }
 /* Hover effects for buttons */
 .form-container .btn1:hover, .open-button:hover {
@@ -400,7 +400,7 @@ background-size: cover;
 
 }
 .sction-features-tabs{
-  padding-left: 175px;
+
 }
 .section-features ul {
   margin: 0px;
@@ -490,7 +490,10 @@ background-size: cover;
     background-color: rgb(236, 235, 235);
     padding: 80px 0;
 }
+.steps-box img{
+    border: 2px solid rgba(11, 11, 11, 0.5);
 
+}
 
 .steps-box:first-child{
     text-align: right;
@@ -508,11 +511,13 @@ background-size: cover;
     float:none;
 
 }
-.list-moving{
+.list-moving-download{
     margin-bottom: 50px;
     width: 100%;
 
-    float:none;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 10%;
 
 }
 .capstament{
@@ -522,12 +527,21 @@ background-size: cover;
     color: rgba(1, 63, 230, 0.66);
     border: 2px solid rgba(1, 63, 230, 0.66);
     display: inline-block;
-    border-radius: 50%;
+
     height: 50px;
     width: 50px;
     text-align: center;
     padding: 5px;
     float: left;
+
+
     font-size: 150%;
     margin-right: 25px;
+}
+.aboutContainer{
+  border: 2px solid rgba(117, 117, 117, 0.66);
+  background-color: rgba(255, 255, 255, 0.72);
+  width:75%;
+  padding-left: 5%;
+  padding-top: 0%;
 }
