@@ -38,11 +38,12 @@ html {
 
 /*------ Header  ------*/
 .hero-text{
-    position: absolute;
-    width: 1140px;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+
+    margin-left: 5%;
+
+
+    
+
 }
 header {
     background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(1, 63, 230, 0.66)) ,url(img/pexels-photo-954198.jpeg);
@@ -234,6 +235,8 @@ h3 {
   border-radius: 20px/50px;
   background-clip: padding-box;
   text-align: center;
+  flex-direction: row;
+
 }
 /*
 
@@ -326,6 +329,8 @@ border-radius: 5px;
 cursor: pointer;
 opacity: 0.8;
 float:left;
+
+
 }
 
 /* Position the Popup form */
