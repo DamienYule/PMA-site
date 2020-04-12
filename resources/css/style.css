@@ -99,7 +99,7 @@ h1 {
     background-color: rgba(60, 117, 42, 0.29);
     }
 .btn-full:active {
-    background-color: bisque;
+    background-color: rgba(35, 108, 14, 0.7);
     color: rgba(115, 187, 248, 0.7);
     transition: color .2s, background-color .2s ;
 }
@@ -108,8 +108,8 @@ h1 {
 }
 
 .btn-ghost:active {
-    background-color: bisque;
-    border-color: bisque;
+    background-color: rgba(35, 108, 14, 0.7);
+    border-color: rgba(35, 108, 14, 0.7);
     color: rgba(115, 187, 248, 0.7);
     transition: color .2s, background-color .2s;
 }
@@ -236,12 +236,14 @@ h3 {
 
 /*---------*/
 .box {
-  width: inherit;
-  margin: 0 auto;
+
   background: rgba(255,255,255,0.2);
-  padding: 35px;
+  padding: 10px 0px 20px 20px;
   border: 2px solid #fff;
-  border-radius:
+
+
+
+
 
 
 
@@ -415,7 +417,7 @@ background-size: cover;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content:center;
   align-items: center;
 
 }
