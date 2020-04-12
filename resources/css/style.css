@@ -338,6 +338,8 @@ border-radius: 5px;
 cursor: pointer;
 opacity: 0.8;
 float:left;
+white-space: nowrap
+
 
 
 }
