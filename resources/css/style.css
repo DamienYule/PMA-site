@@ -508,12 +508,16 @@ background-size: cover;
 }
 /*------how it works------*/
 .section-moving{
-    background-color: rgb(236, 235, 235);
+  background-color:rgba(255, 255, 255, 0.25);
+
+
     padding: 80px 0;
 }
 .steps-box img{
     border: 2px solid rgba(11, 11, 11, 0.5);
      height: 60%; width: 60%;
+
+     background-color: rgba(115, 187, 248, 0.7);
 
 
 
@@ -531,6 +535,8 @@ background-size: cover;
 }
 .moving-object{
     width: 100%;
+    opacity: .5;
+
 
     float:none;
 
