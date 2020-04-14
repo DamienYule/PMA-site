@@ -587,13 +587,21 @@ background-size: cover;
 }
 .productContainer div{
   border: 2px solid rgba(117, 117, 117, 0.66);
-  padding: 2px;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 400px;
 
 }
 .flexbox{
-  flex-basis: 50%;
+  flex-basis: 45%;
+
 }
 .flexImage{
-  width:500px;
+  width:300px;
   height: auto;
+}
+.navProduct{
+.background-color: linear-gradient(rgba(255, 255, 255, 0.6),rgba(21, 166, 22, 0.66));
+
 }
