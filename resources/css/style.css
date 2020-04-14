@@ -573,90 +573,27 @@ background-size: cover;
   font-size: 120%;
 
 
-
-
-
-}
-@media screen and (min-width: 700px) {
-
-
-    .productContainer ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      border-top: 2px solid rgba(117, 117, 117, 0.66);
-      display:flex;
-      flex-basis:25%;
-      flex-wrap: wrap;
-
-    }
-
-}
-.productContainer ul li{
-  margin: 0.5em;
-  padding: 0.5em;
-
-
-}
-.productContainer ul li img{
-
-  flex-basis:
-
 }
 
-.box-1 {
-  flex:1;
-  order:1;
+/*-- about section --*/
+@media screen and (min-width: 700px){
+}
+
+      .productContainer{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+}
+.productContainer div{
   border: 2px solid rgba(117, 117, 117, 0.66);
-  width: 200px;
-  flex-basis:20%;
+  padding: 2px;
+
 }
-.box-2 {
-  flex:1;
-  order:2;
-  border: 2px solid rgba(117, 117, 117, 0.66);
-  width: 200px;
-  flex-basis:20%;
+.flexbox{
+  flex-basis: 50%;
 }
-.box-3 {
-  flex:1;
-  order:3;
-  border: 2px solid rgba(117, 117, 117, 0.66);
-  width: 200px;
-  flex-basis: 20%;
-}
-.box-4 {
-  flex:2;
-  order:4;
-  border: 2px solid rgba(117, 117, 117, 0.66);
-  width: 200px;
-  flex-basis: 20%;
-}
-.box-1 img{
-  flex:1;
-  order:1;
-  border: 2px solid rgba(117, 117, 117, 0.66);
-  width: 200px;
-  flex-basis: 25%;
-}
-.box-2 img{
-  flex:1;
-  order:2;
-  border: 2px solid rgba(117, 117, 117, 0.66);
-  width: 200px;
-  flex-basis: 25%;
-}
-.box-3 img{
-  flex:1;
-  order:3;
-  border: 2px solid rgba(117, 117, 117, 0.66);
-  width: 200px;
-  flex-basis: 25%;
-}
-.box-4 img{
-  flex:2;
-  order:4;
-  border: 2px solid rgba(117, 117, 117, 0.66);
-  width: 200px;
-  flex-basis: 25%;
+.flexImage{
+  width:500px;
+  height: auto;
 }
