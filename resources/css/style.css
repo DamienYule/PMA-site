@@ -66,6 +66,18 @@ header {
     background-position: center;
     position: relative;
 }
+.sheets {
+  background-image: url(img/paperForBackground.png), url(img/sideSpiral.png);
+  height:100vh;
+  width:auto;
+  background-size: cover;
+  background-repeat: no-repeat,no-repeat;
+  clip-path: 100% 100%,100% 0,100% 100%,100% 0;
+
+
+
+
+}
 h1 {
 
     color: #555;
@@ -74,6 +86,16 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 4px;
     float: left;
+}
+.sideImage{
+    float:left;
+    width: 10px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
 }
 
 
@@ -543,10 +565,25 @@ background-size: cover;
 .moving-object{
     width: 100%;
     opacity: .5;
-
-
+    display: block;
     float:none;
+    animation-name: movingObject;
+    animation-duration: 4s;
 
+}
+@keyframes movingObject {
+  0% {
+    transform: translateX(-100vh);
+
+  }
+  90%{
+    transform: translateX(2px);
+
+  }
+  100%{
+    transform: translate(0px);
+
+  }
 }
 .list-moving-download{
     position: absolute;
