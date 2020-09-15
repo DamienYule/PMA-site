@@ -568,7 +568,8 @@ background-size: cover;
     display: block;
     float:none;
     animation-name: movingObject;
-    animation-duration: 4s;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
 
 }
 @keyframes movingObject {
